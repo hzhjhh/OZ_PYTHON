@@ -2,6 +2,7 @@ import rediscluster
 
 if __name__ == '__main__':
     try:
+        #  这里的host地址需要根据redis服务器的实际地址做相应更改
         startup_nodes = [
             {"host": "192.168.23.47", "port": 7000},
             {"host": "192.168.23.47", "port": 7001},
