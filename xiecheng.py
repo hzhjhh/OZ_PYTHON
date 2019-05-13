@@ -21,3 +21,4 @@ if __name__ == '__main__':
         # 需要使用next获取下一个数据
         next(task1)
         next(task2)
+list_ui =[1,2,3]
